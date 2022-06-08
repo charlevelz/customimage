@@ -1,3 +1,1 @@
-FROM postgres
-
-USER root
+FROM gitpod/workspace-full:latest
