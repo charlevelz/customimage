@@ -17,6 +17,3 @@ RUN chmod +x /docker-entrypoint-initdb.d/04_airflow_create_user.sh
 RUN chmod +x /docker-entrypoint-initdb.d/05_airflow_create_db.sh
 
 
-FROM gitpod/workspace-full:latest
-
-
